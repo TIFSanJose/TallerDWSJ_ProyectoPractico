@@ -1,0 +1,33 @@
+Tema: Peluqueria y Barberia.
+
+Secciones de la Web.
+
+############
+## Header ##
+############
+
+__Contendrá el logo de la página web, y que identifica al comercio.-
+
+####################
+## Menù Principal ##
+####################
+
+__Estará a continuación del logo, y tendrá tres opciones HOME | NOSOTROS | SERVICIOS
+
+__HOME Es la pantalla de bienvenida.
+__NOSOTROS Tendrà una imágen a elección del comercio, con una breve reseña sobre el negocio. Contará también con un mapa para la ubicación del comercio.
+__SERVICIOS El detalle de servicios que ofrece, que serà una imagen del producto, descripcion, precio, tiempo y un boton de RESERVA, que redirige a la sección con ese nombre.
+
+#############
+## Seccion ##
+#############
+
+__Junto a las secciones detalladas en el punto anterior, también se cuenta con una sección RESERVA.
+__RESERVA Despliega un calendario, y la lista de horas disponibles y reservadas por el dìa seleccionado.
+
+############
+## Footer ##
+############
+
+__Brindarà informaciòn de DIRECCION | HORARIOS | RESERVA TELEFÒNICA, y también link con redes sociales.
+
