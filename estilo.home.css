@@ -1,0 +1,32 @@
+/*
+* Estilos globales de la pagina
+*/
+body{
+    background-color: cornsilk ;
+    color: #333;
+}
+a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: darkblue;
+}
+
+img{
+    
+    width: 100%; /* width = ancho */
+}
+
+/*
+* Estilos de la barra de navegaciòn
+**/
+
+#navbar ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
