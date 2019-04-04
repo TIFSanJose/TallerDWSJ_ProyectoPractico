@@ -23,10 +23,51 @@ img{
 /*
 * Estilos de la barra de navegaciòn
 **/
+#navbar{
+    background-color: #000;
+}
 
 #navbar ul{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    z-index: 100;
+}
+
+#navbar li{
+    float: left;
+}
+
+#navbar li a {
+    padding: 20px 30px;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+}
+
+#navbar li a:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.myicono i {
+    color: aliceblue;
+    font-size: 1.5em;
+    padding: 10px;
+    display: none;
+}
+
+/**
+*  Se agregan estilos a los contenidos
+*/
+
+#content{
+    border: 1px solid;
+    max-width: 1180px;
+    position: relative;
+    top: 40px;
+    margin: 0 auto;
 }
