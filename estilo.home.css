@@ -2,7 +2,7 @@
 * Estilos globales de la pagina
 */
 body{
-    background-color: cornsilk ;
+    background-color: darkgray ;
     color: #333;
 }
 a {
@@ -40,17 +40,26 @@ img{
 }
 
 #navbar li a {
-    padding: 20px 30px;
+    padding: 10px 20px;
     display: inline-block;
     text-decoration: none;
     font-size: 1em;
     text-align: center;
     color: aliceblue;
+    border: 1px solid rgba(240, 248, 255, 0.5);
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+
 }
 
 #navbar li a:hover{
-    background-color: aquamarine;
+    background-color: #bec7c4;
     color: black;
+    background-image: linear-gradient(to top right, rgba(70, 68, 68, 0.2), rgba(70, 68, 68, 1), rgba(70, 68, 68, 0.2));
+    border-bottom-left-radius: 100px;
+    border-top-right-radius: 100px;
+    border: rgba(70, 68, 68, 0.2);
+
 }
 
 .myicono i {
@@ -64,10 +73,97 @@ img{
 *  Se agregan estilos a los contenidos
 */
 
+#cabercera{
+    height: 60px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-radius: 1em;
+    color: black;
+    background-image: linear-gradient(to  right, rgba(155, 140, 240, 1), rgba(155, 140, 240, 0.5), rgba(155, 140, 240, 0));
+}
+
+
 #content{
-    border: 1px solid;
     max-width: 1180px;
     position: relative;
-    top: 40px;
     margin: 0 auto;
 }
+
+#content img{
+    width: 100%;
+}
+
+#principal {
+    border: 2px solid;
+    border-color: aqua;
+}
+
+#footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 100;
+
+    clear: both;
+    width: 100%;
+}
+
+#footer ul{
+    list-style-type: none;
+}
+
+
+#sociales {
+    width: 50%;
+    float: left;
+    padding: 10px;
+    background-color: #333333;
+    height: 100px;
+}
+
+#sociales ul li a {
+    padding: 5px 10px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: rgb(232, 232, 240);
+    float: right;
+}
+
+#sociales ul li a:hover {
+    color: rgba(155, 140, 240, 1);
+}
+
+#referencia {
+    width: 50%;
+    float: left;
+    height: 100px;
+    background-color: #333;
+}
+
+#referencia ul {
+    padding: 10px 10px;
+}
+
+#referencia ul li a{
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1em;
+    text-align: center;
+    color: aliceblue;
+    float: left;
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid rgba(250, 250, 250, 0.959);
+
+}
+
+#referencia ul li    :hover{
+    color: black;
+    background-image: linear-gradient(to top left, rgba(155, 140, 240, 0.2), rgba(155, 140, 240, 1), rgba(155, 140, 240, 0.2));
+    border-bottom-right-radius: 100px;
+    border-top-left-radius: 100px;
+    border: 1px solid rgb(240, 248, 255, 0.2);
+
+}
+
