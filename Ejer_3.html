@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teorico4_Ejer.3</title>
+    <Style>
+
+        #body{
+            margin: 20px;
+            border-radius: 10px;
+            border:  solid black;
+            width: fit-content;
+            height: auto;
+            display: flex;
+            flex-wrap: wrap;
+            background-color: rgb(144, 237, 240);
+
+        }
+
+        #header{
+            padding: 20px;
+            height: 40px;
+            text-align: left;
+            display: flex;
+            align-content: center;
+            align-items: center;
+        }
+        
+        #section{
+            padding: 10px;
+            text-align: left;
+        }
+
+        #footer {
+            padding: 10px;
+        }
+
+        #btns{
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        #btns div {
+            padding: 0px 15px;
+            margin: 10px;
+            border: solid black;
+            background-color: red;
+            text-align: center;
+        }
+
+        #btns div:hover{
+            border-radius: 5px;
+            border: 2px solid red;
+            background-color: aliceblue;
+            color: red;
+        }
+
+        @media screen and (max-width: 1400px ){
+            #btns div {
+                background-color: green;
+                border: 2px solid aliceblue;
+                color: aliceblue;
+            }
+        }      
+
+        @media screen and (max-width: 1000px ){
+            #btns div {
+                background-color: yellow;
+                border: 2px solid rgb(108, 190, 54);
+                color: rgb(108, 190, 54);
+            }
+        }      
+
+        @media screen and (max-width: 600px ){
+            #btns div {
+                background-color: blueviolet;
+                border: 2px solid aliceblue;
+                color: aliceblue;
+            }
+        }      
+
+
+    </Style>
+</head>
+<body >
+    <section id="body">
+        <header id="header">
+            <h1>Header</h1>
+        </header>
+        <section id="section">
+            <h2>Body</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni facilis error, sint aliquid, velit maiores debitis aperiam dolor eligendi omnis ullam excepturi adipisci! Consequuntur, fugit eum minus doloremque quam nam.?</p>
+            <hr>
+        </section>
+        <footer id="footer">
+            <h3>Footer</h3>
+            <section id="btns">
+                <div id="btn1">
+                    <h4>Boton1</h4>
+                </div>
+                <div id="btn2">
+                    <h4>Boton2</h4>
+                </div>
+                <div id="btn3">
+                    <h4>Boton3</h4>
+                </div>
+            </section>
+        </footer>
+    </section>
+</body>
+</html>
