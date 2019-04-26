@@ -24,7 +24,8 @@ img{
 * Estilos de la barra de navegaciòn
 **/
 #navbar{
-    background-color: #000;
+    background-color: #333;
+    background-image: linear-gradient(to  right, rgba(97, 199, 197, 1), rgba(97, 199, 197, 0.6), rgba(97, 199, 197, 0));
 }
 
 #navbar ul{
@@ -46,16 +47,17 @@ img{
     font-size: 1em;
     text-align: center;
     color: aliceblue;
-    border: 1px solid rgba(240, 248, 255, 0.5);
+    border: 1px solid rgba(240, 248, 255, 0.1);
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
+    background-image: linear-gradient( to left top , rgb(60, 122, 121), rgba(60, 122, 121, 0.1 ), rgba(60, 122, 121, 0));
 
 }
 
 #navbar li a:hover{
     background-color: #bec7c4;
     color: black;
-    background-image: linear-gradient(to top right, rgba(70, 68, 68, 0.2), rgba(70, 68, 68, 1), rgba(70, 68, 68, 0.2));
+    background-image: linear-gradient(to bottom right, rgb(105, 138, 132, 0.2), rgba(105, 138, 132, 1), rgba(0, 255, 255));
     border-bottom-left-radius: 100px;
     border-top-right-radius: 100px;
     border: rgba(70, 68, 68, 0.2);
@@ -77,9 +79,10 @@ img{
     height: 60px;
     padding: 10px 20px;
     background-color: #333;
-    border-radius: 1em;
-    color: black;
-    background-image: linear-gradient(to  right, rgba(155, 140, 240, 1), rgba(155, 140, 240, 0.5), rgba(155, 140, 240, 0));
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+    color: rgba(255, 255, 255);
+    background-image: linear-gradient(to  right, rgb(97, 199, 197, 1), rgba(97, 199, 197, 0.6), rgba(97, 199, 197, 0));
 }
 
 
@@ -93,10 +96,6 @@ img{
     width: 100%;
 }
 
-#principal {
-    border: 2px solid;
-    border-color: aqua;
-}
 
 #footer {
     margin: 0;
@@ -106,6 +105,7 @@ img{
 
     clear: both;
     width: 100%;
+
 }
 
 #footer ul{
@@ -119,6 +119,9 @@ img{
     padding: 10px;
     background-color: #333333;
     height: 100px;
+    background-color: #333;
+    background-image: linear-gradient(to  bottom, rgba(97, 199, 197, 1), rgba(97, 199, 197, 0.3), rgba(97, 199, 197, 0));
+
 }
 
 #sociales ul li a {
@@ -139,6 +142,8 @@ img{
     float: left;
     height: 100px;
     background-color: #333;
+    background-image: linear-gradient(to  bottom, rgba(97, 199, 197, 1), rgba(97, 199, 197, 0.3), rgba(97, 199, 197, 0));
+
 }
 
 #referencia ul {
@@ -150,17 +155,18 @@ img{
     text-decoration: none;
     font-size: 1em;
     text-align: center;
-    color: aliceblue;
+    color: rgb(255, 255, 255);
     float: left;
     border-bottom-right-radius: 100px;
     border-top-left-radius: 100px;
-    border: 1px solid rgba(250, 250, 250, 0.959);
+    border: 1px solid rgba(240, 248, 255, 0.021);
+    background-image: linear-gradient( to right bottom , rgb(60, 122, 121, 0.8), rgba(60, 122, 121, 0 ), rgba(60, 122, 121, 0));
 
 }
 
 #referencia ul li    :hover{
     color: black;
-    background-image: linear-gradient(to top left, rgba(155, 140, 240, 0.2), rgba(155, 140, 240, 1), rgba(155, 140, 240, 0.2));
+    background-image: linear-gradient(to top right, rgb(105, 138, 132, 0.2), rgba(105, 138, 132, 1), rgba(0, 255, 255));
     border-bottom-right-radius: 100px;
     border-top-left-radius: 100px;
     border: 1px solid rgb(240, 248, 255, 0.2);

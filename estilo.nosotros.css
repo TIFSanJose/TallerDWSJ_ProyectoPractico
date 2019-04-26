@@ -1,0 +1,55 @@
+
+
+
+.cuadrosuperiror {
+    border: 2px solid blue;
+    text-decoration: none;
+    height: 50%;
+    width: 100%;
+}
+
+.cuadrosuperiror ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrosuperiror ul li div {
+    border: solid 1px black;
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+
+.cuadroinferior {
+    text-decoration: none;
+    border: 2px solid blue;
+    height: 50%;
+    width: 100%;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.cuadroinferior ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadroinferior ul li div {
+    float: left;
+    height: 100%;
+    width: 50%;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.cuadro3 iframe {
+    height: 100%;
+    width: 100%;
+
+}
+
+.cuadro4{
+}
