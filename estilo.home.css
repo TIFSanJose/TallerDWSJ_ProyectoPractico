@@ -1,18 +1,14 @@
 /*
 * Estilos globales de la pagina
 */
-body{
+* body{
     background-color: darkgray ;
     color: #333;
-}
-a {
+    max-width: 1280px;
+    max-height: 1024px;
     text-decoration: none;
-    color: dodgerblue;
-}
-
-a:hover{
-    text-decoration: underline;
-    color: darkblue;
+    margin: 0;
+    padding: 0;
 }
 
 img{
@@ -20,9 +16,18 @@ img{
     width: 100%; /* width = ancho */
 }
 
-/*
-* Estilos de la barra de navegaciòn
-**/
+#cabercera{
+    height: 60px;
+    width: 1280px;
+    padding: 10px 20px;
+    background-color: #333;
+    border-top-left-radius: 5em;
+    border-top-right-radius: 5em;
+    color: rgba(255, 255, 255);
+    background-image: linear-gradient(to  right, rgb(97, 199, 197, 1), rgba(97, 199, 197, 0.6), rgba(97, 199, 197, 0));
+}
+
+
 #navbar{
     background-color: #333;
     background-image: linear-gradient(to  right, rgba(97, 199, 197, 1), rgba(97, 199, 197, 0.6), rgba(97, 199, 197, 0));
@@ -75,15 +80,6 @@ img{
 *  Se agregan estilos a los contenidos
 */
 
-#cabercera{
-    height: 60px;
-    padding: 10px 20px;
-    background-color: #333;
-    border-top-left-radius: 5em;
-    border-top-right-radius: 5em;
-    color: rgba(255, 255, 255);
-    background-image: linear-gradient(to  right, rgb(97, 199, 197, 1), rgba(97, 199, 197, 0.6), rgba(97, 199, 197, 0));
-}
 
 
 #content{
@@ -105,6 +101,7 @@ img{
 
     clear: both;
     width: 100%;
+    height: 60px;
 
 }
 

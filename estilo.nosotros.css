@@ -1,11 +1,20 @@
 
+#content {
+    max-width: 720px;
+    max-height: 340px;
+}
 
-
+#principal{
+    width: 100%;
+    height: 100%;
+}
 .cuadrosuperiror {
+    background-color: red;
     border: 2px solid blue;
     text-decoration: none;
-    height: 50%;
+    height: 45%;
     width: 100%;
+    overflow: hidden;
 }
 
 .cuadrosuperiror ul{
@@ -15,17 +24,19 @@
 }
 
 .cuadrosuperiror ul li div {
+    background-color: green;
     border: solid 1px black;
     height: 100%;
-    width: 50%;
+    width: 45%;
     float: left;
 }
 
 
 .cuadroinferior {
+    background-color: blueviolet;
     text-decoration: none;
     border: 2px solid blue;
-    height: 50%;
+    height: 45%;
     width: 100%;
     overflow: hidden;
     z-index: 100;
@@ -41,7 +52,6 @@
     float: left;
     height: 100%;
     width: 50%;
-    display: inline-block;
     border: 1px solid black;
 }
 
@@ -52,4 +62,6 @@
 }
 
 .cuadro4{
+    height: 100%;
+    width: 100%;
 }
