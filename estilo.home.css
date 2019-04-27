@@ -4,11 +4,11 @@
 * body{
     background-color: darkgray ;
     color: #333;
-    max-width: 1280px;
-    max-height: 1024px;
+    max-width: 960px;
+    max-height: 720px;
     text-decoration: none;
-    margin: 0;
-    padding: 0;
+    margin: 0 auto;
+    margin-top: 20px;
 }
 
 img{
@@ -18,7 +18,6 @@ img{
 
 #cabercera{
     height: 60px;
-    width: 1280px;
     padding: 10px 20px;
     background-color: #333;
     border-top-left-radius: 5em;
@@ -81,12 +80,12 @@ img{
 */
 
 
-
-#content{
-    max-width: 1180px;
-    position: relative;
-    margin: 0 auto;
+#content {
+    height: 800px;
+    width: 100%;
 }
+
+
 
 #content img{
     width: 100%;
@@ -112,17 +111,17 @@ img{
 
 #sociales {
     width: 50%;
+    height: 100%;
     float: left;
-    padding: 10px;
+    padding: 0px 10px;
     background-color: #333333;
-    height: 100px;
     background-color: #333;
     background-image: linear-gradient(to  bottom, rgba(97, 199, 197, 1), rgba(97, 199, 197, 0.3), rgba(97, 199, 197, 0));
 
 }
 
 #sociales ul li a {
-    padding: 5px 10px;
+    padding: 0px 10px;
     text-decoration: none;
     font-size: 1em;
     text-align: center;
@@ -137,18 +136,18 @@ img{
 #referencia {
     width: 50%;
     float: left;
-    height: 100px;
+    height: 100%;
     background-color: #333;
     background-image: linear-gradient(to  bottom, rgba(97, 199, 197, 1), rgba(97, 199, 197, 0.3), rgba(97, 199, 197, 0));
 
 }
 
 #referencia ul {
-    padding: 10px 10px;
+    padding: 5px 10px;
 }
 
 #referencia ul li a{
-    padding: 10px 20px;
+    padding: 5px 20px;
     text-decoration: none;
     font-size: 1em;
     text-align: center;

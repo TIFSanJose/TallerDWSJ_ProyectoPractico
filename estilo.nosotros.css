@@ -1,19 +1,28 @@
+/*
+    body
+        max-width: 960
+        max-higth: 720
 
-#content {
-    max-width: 720px;
-    max-height: 340px;
+    header
+        height: 60px;
+        padding: 10px 20px;
+
+    footer
+        height: 60px;
+        
+
+*/
+
+#principal {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(97, 199, 197);
+    background-image: linear-gradient(to left top, rgb(97, 199, 197), #8ed4e4, #bedff5, #e6edfb, #ffffff);
 }
 
-#principal{
-    width: 100%;
-    height: 100%;
-}
 .cuadrosuperiror {
-    background-color: red;
-    border: 2px solid blue;
     text-decoration: none;
-    height: 45%;
     width: 100%;
+    height: 50%;
     overflow: hidden;
 }
 
@@ -24,20 +33,17 @@
 }
 
 .cuadrosuperiror ul li div {
-    background-color: green;
-    border: solid 1px black;
-    height: 100%;
-    width: 45%;
-    float: left;
+    width: 50%;
+    float: left;    
+    padding: 5px;
 }
 
 
+
 .cuadroinferior {
-    background-color: blueviolet;
     text-decoration: none;
-    border: 2px solid blue;
-    height: 45%;
     width: 100%;
+    height: 50%;
     overflow: hidden;
     z-index: 100;
 }
@@ -52,13 +58,16 @@
     float: left;
     height: 100%;
     width: 50%;
-    border: 1px solid black;
+    padding: 5px;
 }
 
-.cuadro3 iframe {
-    height: 100%;
-    width: 100%;
+.cuadro3 h3{
+}
 
+.cuadro3 iframe{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
 }
 
 .cuadro4{
