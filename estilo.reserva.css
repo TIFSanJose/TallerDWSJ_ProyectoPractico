@@ -1,0 +1,16 @@
+.principal {
+    height: 450px;
+    width: 100%;
+    background-color: blue;
+}
+
+.cortepelo {
+    border: 1px solid red;
+    background-color: red;
+}
+
+.imagen {
+    list-style-image: none;
+    border-radius:160px;
+    border:10px solid #666;
+}
