@@ -76,10 +76,10 @@ img{
 #cabercera{
     height: 60px;
     padding: 10px 20px;
-    background-color: #333;
-    border-radius: 1em;
-    color: black;
-    background-image: linear-gradient(to  right, rgba(155, 140, 240, 1), rgba(155, 140, 240, 0.5), rgba(155, 140, 240, 0));
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: rgb(255, 255, 255, 45%);
+    background-image: linear-gradient(to  right, rgba(106, 0, 128, 1), rgba(106, 0, 128, 0.5), rgba(106, 0, 128, 0.09));
 }
 
 
