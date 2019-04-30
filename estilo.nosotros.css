@@ -1,0 +1,76 @@
+/*
+    body
+        max-width: 960
+        max-higth: 720
+
+    header
+        height: 60px;
+        padding: 10px 20px;
+
+    footer
+        height: 60px;
+        
+
+*/
+
+#principal {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid rgb(97, 199, 197);
+    background-image: linear-gradient(to left top, rgb(97, 199, 197), #8ed4e4, #bedff5, #e6edfb, #ffffff);
+}
+
+.cuadrosuperiror {
+    text-decoration: none;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.cuadrosuperiror ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadrosuperiror ul li div {
+    width: 50%;
+    float: left;    
+    padding: 5px;
+}
+
+
+
+.cuadroinferior {
+    text-decoration: none;
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    z-index: 100;
+}
+
+.cuadroinferior ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cuadroinferior ul li div {
+    float: left;
+    height: 100%;
+    width: 50%;
+    padding: 5px;
+}
+
+.cuadro3 h3{
+}
+
+.cuadro3 iframe{
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.cuadro4{
+    height: 100%;
+    width: 100%;
+}
