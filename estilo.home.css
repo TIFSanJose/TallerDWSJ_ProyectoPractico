@@ -79,20 +79,10 @@ img{
 *  Se agregan estilos a los contenidos
 */
 
-<<<<<<< HEAD
-#cabercera{
-    height: 60px;
-    padding: 10px 20px;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    color: rgb(255, 255, 255, 45%);
-    background-image: linear-gradient(to  right, rgba(106, 0, 128, 1), rgba(106, 0, 128, 0.5), rgba(106, 0, 128, 0.09));
-=======
 
 #content {
     height: 800px;
     width: 100%;
->>>>>>> 09a90fd87367cf5eb4a740185f6c4d1e4cc3322f
 }
 
 
