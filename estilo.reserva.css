@@ -5,12 +5,14 @@
 }
 
 .cortepelo {
-    border: 1px solid red;
+    width: 200px;
+    height: 200px;
     background-color: red;
 }
 
 .imagen {
-    list-style-image: none;
+    width: 200px;
+    height: 200px;
     border-radius:160px;
     border:10px solid #666;
 }
